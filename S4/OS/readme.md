@@ -1,4 +1,4 @@
-# Banker's Algorithm
+## Banker's Algorithm
 
 - https://www.studytonight.com/operating-system/bankers-algorithm
 
@@ -6,13 +6,13 @@
 
 - https://www.youtube.com/watch?v=Or40J_f2RHo
 
-# Main Memory
+## Main Memory
 
 - https://www.studytonight.com/operating-system/memory-management#:~:text=Main%20Memory%20refers%20to%20a,that%20is%20in%20main%20memory
 
 - https://www.cs.odu.edu/~cs471w/spring11/lectures/MainMemory.htm
 
-# Address Binding
+## Address Binding
 
 - https://techdifferences.com/difference-between-logical-and-physical-address.html#Definition
 
@@ -22,7 +22,7 @@
 
 - https://www.encyclopedia.com/computing/dictionaries-thesauruses-pictures-and-press-releases/relocatable-code
 
-# Dynamic Linking
+## Dynamic Linking
 
 - https://www.ibm.com/docs/en/xl-fortran-linux/15.1.0?topic=fortran-dynamic-static-linking
 
@@ -30,11 +30,11 @@
 
 - https://pediaa.com/what-is-the-difference-between-static-and-dynamic-linking/
 
-# Double Buffering
+## Double Buffering
 
 - https://encyclopedia2.thefreedictionary.com/double+buffering
 
-# Contiguous Memory Allocation
+## Contiguous Memory Allocation
 
 - https://binaryterms.com/contiguous-memory-allocation-in-operating-system.html
 
@@ -42,13 +42,13 @@
 
 - https://technicalmasterblog.wordpress.com/2019/06/20/what-is-bitmap-in-os-how-to-use-it/
 
-# Fragmentation
+## Fragmentation
 
 - https://afteracademy.com/blog/what-is-fragmentation-and-what-are-its-types
 
 - https://www.faceprep.in/operating-systems/operating-systems-fragmentation-and-compaction/
 
-# Paging
+## Paging
 
 - https://www.gatevidyalay.com/paging-memory-management-operating-system/
 
@@ -56,29 +56,29 @@
 
 - https://www.gatevidyalay.com/page-table-paging-in-operating-system/
 
-# TLB - Transition Look Aside Buffer
+## TLB - Transition Look Aside Buffer
 
 - https://www.geeksforgeeks.org/translation-lookaside-buffer-tlb-in-paging/
 
 - https://www.gatevidyalay.com/translation-lookaside-buffer-tlb-paging/
 
-# Segmentation 
+## Segmentation 
 
 - https://www.studytonight.com/operating-system/segmentation-in-operating-systems
 
 - https://www.gatevidyalay.com/segmentation-in-os-segmentation-and-paging/
 
-# Virtual Memory
+## Virtual Memory
 
 - https://www.studytonight.com/operating-system/virtual-memory
 
 - https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/9_VirtualMemory.html
 
-# Copy On Write
+## Copy On Write
 
 - https://www.studytonight.com/operating-system/copyonwrite-in-operating-system
 
-# Page Fault
+## Page Fault
 
 - https://stackoverflow.com/questions/67407852/what-is-zeroed-page-in-linux-kernel
 
@@ -90,7 +90,7 @@
 
 - https://www.youtube.com/watch?v=DXU7SqsYDvg
 
-# Page Replacement Algorithm
+## Page Replacement Algorithm
 
 - https://www.studytonight.com/operating-system/page-replacement-algorithms-in-operating-system
 
@@ -104,17 +104,17 @@
 
 - https://educatech.in/counting-based-page-replacement/
 
-# Thrashing 
+## Thrashing 
 
 - https://www.thecrazyprogrammer.com/2019/02/thrashing-in-operating-system-os.html
 
 - https://www.studytonight.com/operating-system/thrashing-in-operating-system
 
-# Disk Management - Mass Storage
+## Disk Management - Mass Storage
 
 - https://yajin.org/os2018fall/11_Mass_Storage.pdf
 
-# Magnetic Disk
+## Magnetic Disk
 
 - http://www.faadooengineers.com/online-study/post/ece/operating-systems/1172/magnetic-disks
 
