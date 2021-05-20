@@ -108,7 +108,7 @@
 
 - https://www.thecrazyprogrammer.com/2019/02/thrashing-in-operating-system-os.html
 
-https://www.studytonight.com/operating-system/thrashing-in-operating-system
+- https://www.studytonight.com/operating-system/thrashing-in-operating-system
 
 # Disk Management - Mass Storage
 
