@@ -1,8 +1,12 @@
+# Banker's Algorithm
+
 https://www.studytonight.com/operating-system/bankers-algorithm
 
 https://www.youtube.com/watch?v=bYFVbzLLxfY
 
 https://www.youtube.com/watch?v=Or40J_f2RHo
+
+# Memory Management
 
 https://www.studytonight.com/operating-system/memory-management#:~:text=Main%20Memory%20refers%20to%20a,that%20is%20in%20main%20memory
 
@@ -52,6 +56,8 @@ https://www.studytonight.com/operating-system/segmentation-in-operating-systems
 
 https://www.gatevidyalay.com/segmentation-in-os-segmentation-and-paging/
 
+# Virtual Memory
+
 https://www.studytonight.com/operating-system/virtual-memory
 
 https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/9_VirtualMemory.html
@@ -83,6 +89,8 @@ https://educatech.in/counting-based-page-replacement/
 https://www.thecrazyprogrammer.com/2019/02/thrashing-in-operating-system-os.html
 
 https://www.studytonight.com/operating-system/thrashing-in-operating-system
+
+# Disk Management
 
 https://yajin.org/os2018fall/11_Mass_Storage.pdf
 
