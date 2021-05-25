@@ -1,0 +1,41 @@
+Lab - 5
+-------------------------- 
+
+
+1. Construct a solid rectangle with '*' using MIPS assembly language. Get the length and breadth from the user. (Hint :Use jump/conditional branching)
+Eg: Length = 6, breadth = 2
+ ******
+ ******
+
+2.Write a program in MIPS assembly language to swap two values. Get input from the user and display the values on screen after swap operation. 
+
+3. How can we implement logical not? Write down the statement and show the result. (Hint :  Use NOR)
+
+4. Write a program that reads two integer numbers A and B. The program must indicate if one of these numbers is multiple of the other one.
+
+5. Run the following code in QtSPIM.
+	a. Comment the following code and find its C equivalent. 
+	b. State the addressing mode and instruction type for each instruction in the given code. 
+	c. Explain branch instruction  (bne) in detail with respect to the given code's PC values.
+
+.data
+nl:     .asciiz	"\n"
+
+.text
+
+	.globl	main
+main:	
+	li    $t0, 0  
+	li    $t1, 10
+loop: 
+	addi  $t0, $t0, 1                
+	bne   $t1, $t0, loop 
+	sll   $t0,$t1,2
+	li	$v0,1		
+	move	$a0, $t0	
+	syscall
+	li	$v0,4		
+	la	$a0, nl
+	syscall
+	li	$v0,10		
+	syscall	
