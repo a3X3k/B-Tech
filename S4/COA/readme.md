@@ -6,3 +6,4 @@
 ## Data Hazards and Forwarding
 
 - http://web-ext.u-aizu.ac.jp/~yliu/teaching/comparch/lecture12.html
+- https://www.cs.umd.edu/~meesh/411/CA-online/chapter/handling-data-hazards/index.html
