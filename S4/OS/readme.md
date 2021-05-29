@@ -117,6 +117,9 @@
 - https://www.thecrazyprogrammer.com/2019/02/thrashing-in-operating-system-os.html
 
 - https://www.studytonight.com/operating-system/thrashing-in-operating-system
+
+## Global and Local Page Replacement Algorithm ( Solution for Thrashing )
+
 - https://www.cs.jhu.edu/~yairamir/cs418/os6/tsld027.htm
 
 ## Disk Management - Mass Storage
