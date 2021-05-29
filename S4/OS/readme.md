@@ -104,11 +104,20 @@
 
 - https://educatech.in/counting-based-page-replacement/
 
+## Page Buffering Algorithm
+
+- https://ayushverma8.gitbooks.io/test-book/content/operating_system_-_virtual_memory/page_buffering_algorithm.html
+
+## Frame Allocation Algorithm
+
+- https://www.cs.jhu.edu/~yairamir/cs418/os6/tsld026.htm
+
 ## Thrashing 
 
 - https://www.thecrazyprogrammer.com/2019/02/thrashing-in-operating-system-os.html
 
 - https://www.studytonight.com/operating-system/thrashing-in-operating-system
+- https://www.cs.jhu.edu/~yairamir/cs418/os6/tsld027.htm
 
 ## Disk Management - Mass Storage
 
