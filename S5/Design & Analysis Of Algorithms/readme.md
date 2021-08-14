@@ -1,5 +1,5 @@
-<div align = "centre"> 
+<div align = "center"> 
 
-[`Design & Analysis Of Algorithms`]()
+[Design & Analysis Of Algorithms]()
   
 </div>
