@@ -1,7 +1,7 @@
 ## MIPS 32 Instruction Formats 
 
 - [Reference 1](https://max.cs.kzoo.edu/cs230/Resources/MIPS/MachineXL/InstructionFormats.html)
-- [Reference 2](https://max.cs.kzoo.edu/cs230/Resources/MIPS/MachineXL/FormatExceptions.html
+- [Reference 2](https://max.cs.kzoo.edu/cs230/Resources/MIPS/MachineXL/FormatExceptions.html)
 
 ## Data Hazards and Forwarding
 
