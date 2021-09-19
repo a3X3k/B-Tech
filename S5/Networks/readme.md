@@ -73,6 +73,15 @@
 - https://gradeup.co/application-layer-protocols-dns-smtp-pop-ftp-http-i-ba1194bd-c5ab-11e5-9dcb-5849de73f8e1
 - https://owasp.org/www-community/vulnerabilities/CRLF_Injection#:~:text=The%20term%20CRLF%20refers%20to,in%20today%27s%20popular%20Operating%20Systems.
 - https://www.siteground.com/tutorials/email/protocols-pop3-smtp-imap/
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#http_requests
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+- https://medium.com/swlh/http-an-overview-of-web-development-4f6033efb9da
+- https://httpstatuses.com/
+- https://http.cat/
+- https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+- https://ns1.com/resources/dns-types-records-servers-and-queries
+- https://medium.com/swlh/what-is-a-dns-query-a82159d2caa8
+- https://faun.pub/http-and-everything-you-need-to-know-about-it-8273bc224491
 - https://www.quora.com/What-is-a-local-DNS-server
 - http://www.prohut.net/blogging/recursive-query-vs-iterative-query-dns/
 - https://www.cs.uic.edu/~jbell/CourseNotes/Networking/Slides/Chapter_2_V6.1.pdf
