@@ -86,3 +86,4 @@
 - http://www.prohut.net/blogging/recursive-query-vs-iterative-query-dns/
 - https://www.cs.uic.edu/~jbell/CourseNotes/Networking/Slides/Chapter_2_V6.1.pdf
 - https://www.cs.sfu.ca/~funda/TEACHING/SP13/371/chap3.pdf
+- https://www.geeksforgeeks.org/circuit-switching-in-computer-network/
