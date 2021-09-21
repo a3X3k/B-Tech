@@ -87,3 +87,4 @@
 - https://www.cs.uic.edu/~jbell/CourseNotes/Networking/Slides/Chapter_2_V6.1.pdf
 - https://www.cs.sfu.ca/~funda/TEACHING/SP13/371/chap3.pdf
 - https://www.geeksforgeeks.org/circuit-switching-in-computer-network/
+- http://www.sr2jr.com/textbook-solutions/computer-science/10101001/computer-networking-a-top-down-approach-computer-networks-and-the-internet
