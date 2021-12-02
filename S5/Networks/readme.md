@@ -87,3 +87,102 @@
 - https://www.cs.uic.edu/~jbell/CourseNotes/Networking/Slides/Chapter_2_V6.1.pdf
 - https://www.cs.sfu.ca/~funda/TEACHING/SP13/371/chap3.pdf
 - https://www.geeksforgeeks.org/circuit-switching-in-computer-network/
+- https://www.ibm.com/docs/en/tsm/7.1.0?topic=tuning-tcp-flow-control-sliding-window
+
+- https://www.gatevidyalay.com/transmission-control-protocol-tcp-header/
+
+- https://www.geeksforgeeks.org/tcp-timers/#:~:text=When%20TCP%20sends%20a%20segment,RTT(round%20trip%20time)
+
+- http://www2.ic.uff.br/~michael/kr1999/3-transport/3_05-segment.html
+
+- https://www.cse.iitk.ac.in/users/dheeraj/cs425/lec14.html
+
+- https://www-sop.inria.fr/members/Vincenzo.Mancuso/ReteInternet/06_tcp_part2.pdf
+
+- https://www.guru99.com/tcp-3-way-handshake.html
+
+- http://www2.ic.uff.br/~michael/kr1999/3-transport/3_06-principles_congestion.htm
+
+- https://www.geeksforgeeks.org/congestion-control-in-computer-networks/
+
+- https://brainly.in/question/7026772
+
+- https://cs.brown.edu/courses/csci1680/f13/lectures/14-congestion.pdf
+
+- https://kb.clavister.com/317180249/explicit-congestion-notification---ecn-ece-cwe-ns-ect-ce
+
+- https://www.geeksforgeeks.org/difference-between-datagram-switching-virtual-circuit/
+
+- https://www.techopedia.com/definition/14858/weighted-fair-queueing-wfq
+
+- https://gateoverflow.in/57598/Ugcnet-june2014-iii-71
+
+- https://testbook.com/question-answer/an-ip-router-implementing-classless-inter-domain-r--5f1569badceddd0d1139ae9d
+
+- https://www.javatpoint.com/computer-network-routing-algorithm
+
+- https://tutorialspoint.dev/computer-science/computer-network-tutorials/computer-network-classification-routing-algorithms
+
+- https://www.tutorialspoint.com/what-is-a-routing-algorithm-in-computer-network
+
+- https://www.javatpoint.com/link-state-routing-algorithm
+
+- https://www.javatpoint.com/distance-vector-routing-algorithm
+
+- https://www.gatevidyalay.com/distance-vector-routing-routing-algorithms/
+
+- https://www.geeksforgeeks.org/route-poisoning-and-count-to-infinity-problem-in-routing/
+
+- https://computer.howstuffworks.com/routing-algorithm.htm
+
+- https://sabercomlogica.com/en/intra-as-and-inter-as-routing/
+
+- https://www.thousandeyes.com/learning/glossary/as-autonomous-system
+
+- http://web.eecs.utk.edu/~hqi/teaching/ece453f06/Lec10_network2.pdf
+
+- https://www.youtube.com/watch?v=8jKNrWgFtUA
+
+- https://www.routeralley.com/guides/ospf.pdf
+
+- https://www.ibm.com/docs/en/i/7.4?topic=routing-open-shortest-path-first
+
+- https://www.tutorialspoint.com/what-is-a-parity-bit
+
+- https://www.geeksforgeeks.org/error-detection-in-computer-networks/
+
+- https://www.comms-express.com/blog/what-does-an-ethernet-cable-do/
+
+- https://www.studytonight.com/computer-networks/multiple-access-in-data-link-layer
+
+- https://www.javatpoint.com/multiple-access-protocols
+
+- https://www.studytonight.com/computer-networks/random-access-protocol
+
+- https://www.studytonight.com/computer-networks/carrier-sense-multiple-access
+
+- https://www.tutorialspoint.com/difference-between-csma-ca-and-csma-cd
+
+- https://www.cbtnuggets.com/blog/technology/networking/csma-ca-vs-csma-cd-whats-the-difference
+
+- https://www.studytonight.com/computer-networks/controlled-access-protocols
+
+- https://www.studytonight.com/post/controlled-access-protocols-reservation-polling-token-passing
+
+- https://www.studytonight.com/computer-networks/channelization-protocols
+
+- https://networkencyclopedia.com/code-division-multiple-access-cdma/
+
+- https://www.usr.com/education/broadband/what-cable-internet-access/
+
+- https://www.fortinet.com/resources/cyberglossary/what-is-ethernet-switching
+
+- https://www.guru99.com/vlan-definition-types-advantages.html
+
+- https://techhub.hpe.com/eginfolib/networking/docs/routers/msrv5/cg/5200-2316_l2-lan-cg/content/459302545.htm
+
+- https://slideplayer.com/slide/5099460/
+
+- https://www.youtube.com/watch?v=xHX-EYrPNLM
+
+- https://courses.grainger.illinois.edu/cs438/fa2021/classNotes/lec22a.pdf
