@@ -1,0 +1,25 @@
+- https://www.youtube.com/watch?v=ptqt2zr9ZRE
+- https://www.youtube.com/watch?v=IIBOT3SjJZE
+- https://www.youtube.com/watch?v=nBrFC0STApo
+- https://scanftree.com/Graph-Theory/cut-edge-cut-set-cut-vertex-in-graph-connectivity
+- https://www.gatevidyalay.com/complement-of-a-graph/
+- https://www.britannica.com/science/Hamilton-circuit#:~:text=Encyclop%C3%A6dia%20Britannica%2C%20Inc.-,Hamiltonian%20circuit,mathematical%20study%20of%20such%20graphs.
+- https://www.geeksforgeeks.org/eulerian-path-and-circuit/
+- https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/building-and-analysing-ppins/topological-ppin-analysis/closeness-centrality/
+- https://www.youtube.com/watch?v=-LO9NLaccFQ
+- https://youtu.be/oZYsKXViW3E
+- https://cambridge-intelligence.com/eigencentrality-pagerank/#:~:text=Invented%20by%20Google%20founders%20Larry,any%20kind%20of%20network%2C%20though.
+- https://www.youtube.com/watch?v=LtQoPEKKRYM
+- https://www.geeksforgeeks.org/graph-measurements-length-distance-diameter-eccentricity-radius-center/
+http://qasimpasta.info/data/uploads/sina-2015/calculating-average-path-length.pdf
+- https://en.wikipedia.org/wiki/Degree_distribution
+- https://www.youtube.com/watch?v=gzWlSPxpHZE
+- https://neo4j.com/docs/graph-data-science/current/algorithms/modularity-optimization/
+- https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.community.quality.modularity.html
+- https://towardsdatascience.com/louvain-algorithm-93fde589f58c
+- https://www.geeksforgeeks.org/two-clique-problem-check-graph-can-divided-two-cliques/
+- https://iq.opengenus.org/algorithm-to-find-cliques-of-a-given-size-k/
+- https://www.youtube.com/watch?v=LqPHg9uNp-o
+- https://en.wikipedia.org/wiki/Social_contagion
+- https://www.oreilly.com/library/view/network-science-with/9781789955316/7e0d1d52-4c7d-4ae3-8ba5-21dd3b84493b.xhtml
+- https://medium.com/@dishasuyogi/link-prediction-3bd1a9a79f29
