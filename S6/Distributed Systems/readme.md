@@ -52,3 +52,16 @@
 - https://people.cs.pitt.edu/~mosse/cs2510/class-notes/replication.pdf
 - http://people.sabanciuniv.edu/erkays/cs403/Chapter_6b.pdf
 - https://getmyuni.azureedge.net/assets/main/study-material/notes/computer-science_engineering_distributed-systems_naming_notes.pdf
+- https://www.youtube.com/watch?v=HbBxO5RXNhU
+- https://www.w3.org/History/1992/nfs_dxcern_mirror/rpc/doc/Introduction/HowItWorks.html
+- https://www.javatpoint.com/what-is-rpc-in-operating-system
+- https://practice.geeksforgeeks.org/problems/what-is-marshalling
+- https://www.youtube.com/watch?v=lxBy1jLD9g8
+- https://www.oracle.com/java/technologies/downloads/#java8-windows
+- https://stackoverflow.com/questions/12336224/rmic-error-class-not-found
+- https://www.javatpoint.com/RMI
+- https://stackoverflow.com/questions/22478680/how-to-remove-classpath-in-windows7-enviroment
+- https://www.geeksforgeeks.org/how-to-set-classpath-in-java/
+- https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
+- https://stackoverflow.com/questions/7709041/javac-is-not-recognized-as-an-internal-or-external-command-operable-program-or
+- https://docs.oracle.com/javase/6/docs/technotes/guides/rmi/hello/hello-world.html
