@@ -1,0 +1,1 @@
+- http://www.linkeddatatools.com/introducing-rdf-part-2
