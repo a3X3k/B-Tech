@@ -1,0 +1,103 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE Admission SYSTEM "Admission.dtd">
+
+<Admission>
+
+    <Students>
+
+        <Student>
+
+            <ApplicationNo></ApplicationNo>
+
+            <Name>
+
+                <Firstname></Firstname>
+
+                <Lastname></Lastname>
+
+            </Name>
+
+            <Address>
+
+                <DoorNo></DoorNo>
+
+                <Street></Street>
+
+                <Locality></Locality>
+                
+                <City></City>
+
+                <State></State>
+
+                <Country></Country>
+
+                <Pincode></Pincode>
+
+            </Address>
+
+            <Email></Email>
+
+            <Phone></Phone>
+
+            <DOB></DOB>
+
+            <Age></Age>
+
+            <Gender></Gender>
+
+            <Nationality></Nationality>
+
+            <IdentitficationMark></IdentitficationMark>
+
+            <AEEERank></AEEERank>
+
+            <JEERank></JEERank>
+
+            <SSLCPercentage></SSLCPercentage>
+
+            <HSCPercentage></HSCPercentage>
+
+        </Student>
+
+        <Parent>
+
+            <Father>
+
+                <Name></Name>
+
+                <Occupation></Occupation>
+
+                <Email></Email>
+
+                <Phone></Phone>
+
+            </Father>
+
+            <Mother>
+            
+                <Name></Name>
+
+                <Occupation></Occupation>
+
+                <Email></Email>
+
+                <Phone></Phone>
+
+            </Mother>
+
+        </Parent>
+
+        <Branch>
+
+            <BranchPreference1></BranchPreference1>
+
+            <BranchPreference2></BranchPreference2>
+
+            <BranchPreference3></BranchPreference3>
+
+        </Branch>
+
+    </Students>
+
+</Admission>

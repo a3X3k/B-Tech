@@ -1,0 +1,130 @@
+<?xml version = "1.0"?>
+
+<!DOCTYPE PurchaseOrder
+
+[
+
+<!ELEMENT PurchaseOrder (PurchaseRequest, Product+, Address, Payment)>
+
+<!ELEMENT PurchaseRequest (PR_Number, Supplier_ID, Supplier_Name, Delivery_Date)>
+
+<!ELEMENT PR_Number (#PCDATA)>
+
+<!ELEMENT Supplier_ID (#PCDATA)>
+
+<!ELEMENT Supplier_Name (#PCDATA)>
+
+<!ELEMENT Delivery_Date (#PCDATA)>
+
+<!ELEMENT Product (Product_No, Product_Name, Description, Quantity, UnitPrice, TotalPrice, SKUNo)>
+
+<!ELEMENT Product_No (#PCDATA)>
+
+<!ELEMENT Product_Name (#PCDATA)>
+
+<!ELEMENT Description (#PCDATA)>
+
+<!ELEMENT Quantity (#PCDATA)>
+
+<!ELEMENT UnitPrice (#PCDATA)>
+
+<!ELEMENT TotalPrice (#PCDATA)>
+
+<!ELEMENT SKUNo (#PCDATA)>
+
+<!ELEMENT Address (Shipping_Address, Billing_Address)>
+
+<!ELEMENT Shipping_Address (Contact_Name, DoorNo, Street, Locality, City, State, Country, Zipcode, Company, Phone, Fax, Email)>
+
+<!ELEMENT Contact_Name (#PCDATA)>
+
+<!ELEMENT DoorNo (#PCDATA)>
+
+<!ELEMENT Street (#PCDATA)>
+
+<!ELEMENT Locality (#PCDATA)>
+
+<!ELEMENT City (#PCDATA)>
+
+<!ELEMENT State (#PCDATA)>
+
+<!ELEMENT Country (#PCDATA)>
+
+<!ELEMENT Zipcode (#PCDATA)>
+
+<!ELEMENT Company (#PCDATA)>
+
+<!ELEMENT Phone (#PCDATA)>
+
+<!ELEMENT Fax (#PCDATA)>
+
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT Billing_Address (Contact_Name, DoorNo, Street, Locality, City, State, Country, Zipcode, Company, Phone, Fax, Email)>
+
+<!ELEMENT Contact_Name (#PCDATA)>
+
+<!ELEMENT DoorNo (#PCDATA)>
+
+<!ELEMENT Street (#PCDATA)>
+
+<!ELEMENT Locality (#PCDATA)>
+
+<!ELEMENT City (#PCDATA)>
+
+<!ELEMENT State (#PCDATA)>
+
+<!ELEMENT Country (#PCDATA)>
+
+<!ELEMENT Zipcode (#PCDATA)>
+
+<!ELEMENT Company (#PCDATA)>
+
+<!ELEMENT Phone (#PCDATA)>
+
+<!ELEMENT Fax (#PCDATA)>
+
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT Payment (Purchase_Order, Card)>
+
+<!ELEMENT Purchase_Order (Payment_Type, PO_Number)>
+
+<!ELEMENT Payment_Type (#PCDATA)>
+
+<!ELEMENT PO_Number (#PCDATA)>
+
+<!ELEMENT Card (Debit_Card, Credit_Card)>
+
+<!ELEMENT Debit_Card (Card_Number, Card_Holder_Name, Expiry_Month, Expiry_Year, CVV, PIN)>
+
+<!ELEMENT Card_Number (#PCDATA)>
+
+<!ELEMENT Card_Holder_Name (#PCDATA)>
+
+<!ELEMENT Expiry_Month (#PCDATA)>
+
+<!ELEMENT Expiry_Year (#PCDATA)>
+
+<!ELEMENT CVV (#PCDATA)>
+
+<!ELEMENT PIN (#PCDATA)>
+
+<!ELEMENT Credit_Card (Card_Number, Card_Holder_Name, Expiry_Month, Expiry_Year, CVV, PIN)>
+
+<!ELEMENT Card_Number (#PCDATA)>
+
+<!ELEMENT Card_Holder_Name (#PCDATA)>
+
+<!ELEMENT Expiry_Month (#PCDATA)>
+
+<!ELEMENT Expiry_Year (#PCDATA)>
+
+<!ELEMENT CVV (#PCDATA)>
+
+<!ELEMENT PIN (#PCDATA)>
+
+]>
+
+
+

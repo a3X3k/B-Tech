@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+
+    xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs = "http://www.w3.org/2000/01/rdf-schema#"
+    xml:sub = "http://nm.wu-wien.ac.at/rdf/entities#PublicKay25097">
+
+    <rdf:Description rdf:ID = "Subject">
+
+        <rdf:type rdf:resource="http://nm.wu-wien.ac.at/rdf/attributes#Subject"/>
+
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://nm.wu-wien.ac.at/rdf/entities#PublicKay25097">
+
+        <sub:project> Project X </sub:project>
+
+        <sub:birthday> 1977 - 07 - 07 </sub:birthday>
+
+        <sub:nationality> Austrian </sub:nationality>
+
+    </rdf:Description>
+
+</rdf:RDF>

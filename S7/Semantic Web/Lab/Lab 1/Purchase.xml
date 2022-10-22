@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE PurchaseOrder SYSTEM "PurchaseOrder.dtd">
+
+<PurchaseOrder>
+
+    <PurchaseRequest>
+
+        <PR_Number></PR_Number>
+
+        <Supplier_ID></Supplier_ID>
+
+        <Supplier_Name></Supplier_Name>
+
+        <Delivery_Date></Delivery_Date>
+    
+    </PurchaseRequest>
+
+    <Product>
+
+        <Product_No></Product_No>
+
+        <Product_Name></Product_Name>
+
+        <Description></Description>
+
+        <Quantity></Quantity>
+
+        <UnitPrice></UnitPrice>
+
+        <TotalPrice></TotalPrice>
+
+        <SKUNo></SKUNo>
+
+    </Product>
+
+    <Address>
+
+        <Shipping_Address>
+
+            <Contact_Name></Contact_Name>
+
+            <DoorNo></DoorNo>
+
+            <Street></Street>
+
+            <Locality></Locality>
+            
+            <City></City>
+
+            <State></State>
+
+            <Country></Country>
+
+            <Zipcode></Zipcode>
+
+            <Company></Company>
+
+            <Phone></Phone>
+
+            <Fax></Fax>
+
+            <Email></Email>
+
+        </Shipping_Address>
+
+        <Billing_Address>
+
+            <Contact_Name></Contact_Name>
+
+            <DoorNo></DoorNo>
+
+            <Street></Street>
+
+            <Locality></Locality>
+            
+            <City></City>
+
+            <State></State>
+
+            <Country></Country>
+
+            <Zipcode></Zipcode>
+
+            <Company></Company>
+
+            <Phone></Phone>
+
+            <Fax></Fax>
+
+            <Email></Email>
+
+        </Billing_Address>       
+
+    </Address>
+
+    <Payment>
+
+        <Purchase_Order>
+
+            <Payment_Type></Payment_Type>
+
+            <PO_Number></PO_Number>
+
+        </Purchase_Order>
+
+        <Card>
+        
+            <Debit_Card>
+
+                <Card_Number></Card_Number>
+
+                <Card_Holder_Name></Card_Holder_Name>
+
+                <Expiry_Month></Expiry_Month>
+
+                <Expiry_Year></Expiry_Year>
+
+                <CVV></CVV>
+
+                <PIN></PIN>
+                    
+            </Debit_Card>
+
+            <Credit_Card>
+
+                <Card_Number></Card_Number>
+
+                <Card_Holder_Name></Card_Holder_Name>
+
+                <Expiry_Month></Expiry_Month>
+
+                <Expiry_Year></Expiry_Year>
+
+                <CVV></CVV>
+
+                <PIN></PIN>
+                    
+            </Credit_Card>
+
+        </Card>
+
+    </Payment>
+
+</PurchaseOrder>

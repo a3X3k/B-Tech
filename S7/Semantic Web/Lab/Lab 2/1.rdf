@@ -1,0 +1,25 @@
+<?xml:namespace ns = "http://www.w3.org/RDF/RDF/"?>
+
+<?xml:namespace staff = "http://www.example.org/terms/"?>
+
+<RDF:RDF>
+
+    <RDF:Description rdf:resource = "http://www.example.org/staffid/85740">
+
+        <RDF:staff rdf:resource = "http://www.example.org/terms/address" rdf:HREF = "#Address_ID"/>
+
+    </RDF:Description>
+
+    <RDF:Description ID = "#Address_ID">
+
+        <staff:City>Bedford</staff:City>
+
+        <staff:Street>1501 Grant Avenue</staff:Street>
+
+        <staff:state>Massachusetts</staff:state>
+
+        <staff:postalCode>01730</staff:postalCode>        
+
+    </RDF:Description>
+
+</RDF:RDF>

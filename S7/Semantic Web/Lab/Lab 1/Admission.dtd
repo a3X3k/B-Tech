@@ -1,0 +1,86 @@
+<?xml version = "1.0"?>
+
+<!DOCTYPE Admission
+
+[
+
+<!ELEMENT Admission (Students*)>
+
+<!ELEMENT Students (Student, Parent, Branch)>
+
+<!ELEMENT Student (ApplicationNo, Name, Address, Email, Phone, DOB, Age, Gender, Nationality, IdentitficationMark, AEEERank, JEERank, SSLCPercentage, HSCPercentage)>
+
+<!ELEMENT ApplicationNo (#PCDATA)>
+
+<!ELEMENT Name (Firstname, Lastname)>
+
+<!ELEMENT Firstname (#PCDATA)>
+
+<!ELEMENT Lastname (#PCDATA)>
+
+<!ELEMENT Address (DoorNo, Street, Locality, City, State, Country, Pincode)>
+
+<!ELEMENT DoorNo (#PCDATA)>
+
+<!ELEMENT Street (#PCDATA)>
+
+<!ELEMENT Locality (#PCDATA)>
+
+<!ELEMENT City (#PCDATA)>
+
+<!ELEMENT State (#PCDATA)>
+
+<!ELEMENT Country (#PCDATA)>
+
+<!ELEMENT Pincode (#PCDATA)>
+
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT Phone (#PCDATA)>
+
+<!ELEMENT DOB (#PCDATA)>
+
+<!ELEMENT Age (#PCDATA)>
+
+<!ELEMENT Gender (#PCDATA)>
+
+<!ELEMENT Nationality (#PCDATA)>
+
+<!ELEMENT IdentitficationMark (#PCDATA)>
+
+<!ELEMENT AEEERank (#PCDATA)>
+
+<!ELEMENT JEERank (#PCDATA)>
+
+<!ELEMENT SSLCPercentage (#PCDATA)>
+
+<!ELEMENT HSCPercentage (#PCDATA)>
+
+
+<!ELEMENT Parent (Father, Mother)>
+
+<!ELEMENT Father (Name, Occupation, Email, Phone)>
+
+<!ELEMENT Mother (Name, Occupation, Email, Phone)>
+
+<!ELEMENT Name (#PCDATA)>
+
+<!ELEMENT Occupation (#PCDATA)>
+
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT Phone (#PCDATA)>
+
+
+<!ELEMENT Branch (BranchPreference1, BranchPreference2, BranchPreference3)>
+
+<!ELEMENT BranchPreference1 (#PCDATA)>
+
+<!ELEMENT BranchPreference2 (#PCDATA)>
+
+<!ELEMENT BranchPreference3 (#PCDATA)>
+
+]>
+
+
+

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Menu SYSTEM "Menu.dtd">
+
+<Menu>
+
+    <Breakfast>
+
+        <Category name = "Main">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Pastry">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Sharers">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Toasters">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Hot_Drinks">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Fruit_Drinks">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+    </Breakfast>
+
+    <Lunch>
+
+        <Category name = "Indian_Dishes">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Sandwiches">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Speciality_Soups">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Appetizers">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Thai_Dishes">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Sea_Food">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+        
+        <Category name = "From_the_Land">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Veal">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Salads">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+    </Lunch>
+
+    <Dinner>
+
+        <Category name = "Italian_Cuisine">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Hot_Dog_and_Coffee">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Fries_and_Coke">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Pizza_and_Coke">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "HamBurger_and_Coffee">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Tacos_and_Fries">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Desserts">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+        <Category name = "Bevarages">
+
+            <Item>
+
+                <Name></Name>
+
+                <Price></Price>
+
+                <Description></Description>
+
+                <Calories></Calories>
+
+            </Item>
+
+        </Category>
+
+    </Dinner>
+
+</Menu>

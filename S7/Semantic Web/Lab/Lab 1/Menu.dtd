@@ -1,0 +1,31 @@
+<?xml version = "1.0"?>
+
+<!DOCTYPE Menu
+
+[
+
+<!ELEMENT Menu (Breakfast, Lunch, Dinner)>
+
+<!ELEMENT Breakfast (Category+)>
+
+<!ELEMENT Lunch (Category+)>
+
+<!ELEMENT Dinner (Category+)>
+
+<!ATTLIST Category name ID #REQUIRED>
+
+<!ELEMENT Category (Item+)>
+
+<!ELEMENT Item (Name, Price, Description, Calories)>
+
+<!ELEMENT Name (#PCDATA)>
+
+<!ELEMENT Price (#PCDATA)>
+
+<!ELEMENT Description (#PCDATA)>
+
+<!ELEMENT Calories (#PCDATA)>
+
+]>
+
+
