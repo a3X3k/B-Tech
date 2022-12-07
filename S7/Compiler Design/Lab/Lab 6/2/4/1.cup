@@ -1,0 +1,19 @@
+import java_cup.runtime.*;
+
+scan with {: return getScanner().next_token(); :};
+
+
+terminal VAR, CONST, INT, FLOAT, STRING, SEMI, EQU, ID, SPACE, EOFILE;
+
+non terminal prog, decln, type, s;
+
+
+s ::= prog {: System.out.println("Valid declaration"); :}
+
+EOFILE{:System.exit(0);:};
+
+prog ::= prog decln | decln;
+
+decln ::= CONST SPACE type SPACE ID SPACE EQU SPACE type SEMI;
+
+type ::= INT | FLOAT | STRING;

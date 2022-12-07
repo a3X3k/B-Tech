@@ -1,0 +1,36 @@
+
+1. Install jlex if no there
+    sudo apt-get install -y jlex
+
+2. Install java (if not there)
+    sudo apt install openjdk-11-jdk-headless
+
+3. Download the file //java-cup-bin-11b-20160615.tar.gz from the below site
+            http://www2.cs.tum.edu/projects/cup/install.php
+
+4. Extract the above file in your working folder. 
+   This contains two jar file:
+             a. java-cup-11b.jar
+             b. java-cup-11b-runtime.jar
+   Extract both the jar file into the folder itself.
+         a. jar -xf java-cup-11b.jar
+         b. jar -xf java-cup-11b-runtime.jar
+
+
+5. Install cup
+   sudo apt install cup
+
+6. Write your jlex program, cup program, Main class and input file(if any).
+
+7. Execute command to run jlex program ( Ex. declaration)
+      jlex declaration
+
+8. Execute command to run cup file(ex. declaration.cup)
+      cup declaration.cup
+
+9. Compile all the java files together.
+        javac *.java
+
+10. Run the main class
+       java Main        
+* 

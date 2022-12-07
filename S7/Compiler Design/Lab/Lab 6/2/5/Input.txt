@@ -1,0 +1,1 @@
+var int i = NULL; var string s = NULL;

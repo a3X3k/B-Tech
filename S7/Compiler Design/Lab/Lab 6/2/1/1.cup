@@ -1,0 +1,21 @@
+import java_cup.runtime.*;
+
+scan with {: return getScanner().next_token(); :};
+
+
+terminal INT, CHAR, FLOAT, SEMI, COMMA, ID, SPACE, EOFILE;
+
+non terminal prog, decln, varlist, type, s;
+
+
+s ::= prog {: System.out.println("Valid declaration"); :}
+
+EOFILE{:System.exit(0);:};
+
+prog ::= prog decln | decln;
+
+decln ::= type SPACE varlist SEMI EOFILE;
+
+type ::= INT | CHAR | FLOAT;
+
+varlist ::= ID COMMA varlist | ID;

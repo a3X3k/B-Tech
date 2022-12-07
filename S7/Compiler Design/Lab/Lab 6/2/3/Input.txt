@@ -1,0 +1,1 @@
+var float time = 12.34;
