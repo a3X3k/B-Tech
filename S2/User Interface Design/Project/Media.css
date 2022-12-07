@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  padding: 10px;
+  background-image: url("13.jpg");
+  background-repeat: round;
+  filter: contrast(100%);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 0.1px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: rgba(3, 0, 41, 0.664);
+  color: rgb(72, 255, 0);
+  border-radius: 75px;
+  height: 130px;
+}
+
+.clock {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: rgb(81, 255, 0);
+  font-size: 30px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+  margin-top: 20px;
+}
+.header h1 {
+  font-size: 55px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#date {
+  margin-left: 10px;
+  height:50px;
+  padding-left: 17px;
+  padding-right: 15px;
+  padding-top: 10px;
+  width:390px;
+  border-radius: 50px;
+  background-color: rgb(0, 0, 0);
+  color: #7bff00;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  padding: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  background-color: rgba(59, 71, 97, 0);
+  border-radius: 50px;
+  width:425px;
+   background-color: rgb(0, 0, 0);
+}
+
+.topnav .top1active {
+  background-color: rgba(0, 0, 0, 0.74);
+  color: white;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #00003b7e;
+  border-radius: 75px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: large;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(14, 0, 46);
+  color: black;
+}
+
+/* Set up positi
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.column {   
+  float: left;
+  padding:25px;
+  width: 98%;
+  border-radius: 50px;
+  background-image: url("02.jpg");
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+li{
+  font-size: 20px;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 10px;
+  border-radius: 45%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ff00957a;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <script>
+      window.onload=function(){
+     var d=new Date();
+     var time = d.toLocaleTimeString();
+     var date = d.getDate();
+     var month = d.getMonth();
+     var year = d.getFullYear();
+     document.getElementById("date").innerHTML="Login Date And Time : "+date+"/"+month+"/"+year+"   "+time;
+   }
+</script>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="Image.css">
+<title>S.Abhishek</title>
+</head>
+<body style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: rgb(0, 0, 26);">
+  <div class="header">
+    <h1 style="font-size: 45px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="w3-animate-fading" >!.. My Gallery ..!</h1>
+    <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="w3-animate-fading">“When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.”</h3>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+  </div>
+  
+  <div class="topnav">
+      <a href="Home.html" style="color: rgb(166, 255, 12);">Home</a>
+      <a href="Blog.html" style="color: rgb(166, 255, 0);">Blog</a>
+      <a href="Education.html" style="color: rgb(166, 255, 12);">Education</a>
+      <a href="Media.html" style="color: rgb(166, 255, 12);">Media</a>
+      <a href="Gallery.html" class ="top1active" style="color: rgb(166, 255, 12);">Gallery</a>
+    </div>
+
+    <div class="time"></div>
+    <marquee behavior="alternate" direction="right" ><a><p id="date"></p></a></marquee>
+    </div>
+
+<br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1</div>
+  <img src="14.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2</div>
+  <img src="101.jpg" style="width:100%">
+  <div class="text" ></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3</div>
+  <img src="102.jpg" style="width:100%">
+  <div class="text" ></div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4</div>
+    <img src="1111.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">5</div>
+    <img src="111.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6</div>
+    <img src="75.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<div class="container" style="margin-top:30px;">
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%; color: black;" >Gallery
+    </div>
+  </div>
+</div>
+<div class="container">    
+  <ul class="pager">
+    <li class="previous" ><a href="Media.html">Previous</a></li>
+  </ul>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Abhishek.S</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="Blog.html">Blog</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="Media.html">Media</a></li>
+    </ul>
+  </div>
+</nav>
+<script>
+  window.onload=function(){
+var d=new Date();
+var time = d.toLocaleTimeString();
+var date = d.getDate();
+var month = d.getMonth();
+var year = d.getFullYear();
+document.getElementById("date").innerHTML="Login Date And Time : "+date+"/"+month+"/"+year+"   "+time;
+}
+
+function fun(){
+var n=document.getElementById("name").value;
+if(n=="")
+{
+  window.alert("Enter the Name And Comments!");
+}
+}
+
+function showTime(){
+var date = new Date();
+var h = date.getHours(); // 0 - 23
+var m = date.getMinutes(); // 0 - 59
+var s = date.getSeconds(); // 0 - 59
+var session = "AM";
+
+if(h == 0){
+h = 12;
+}
+
+if(h > 12){
+h = h - 12;
+session = "PM";
+}
+
+h = (h < 10) ? "0" + h : h;
+m = (m < 10) ? "0" + m : m;
+s = (s < 10) ? "0" + s : s;
+
+var time = h + ":" + m + ":" + s + " " + session;
+document.getElementById("MyClockDisplay").innerText = time;
+document.getElementById("MyClockDisplay").textContent = time;
+
+setTimeout(showTime, 1000);
+
+}
+
+showTime();
+</script>
+</body>
+</html> 

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <script>
+    window.onload=function(){
+     var d=new Date();
+     var time = d.toLocaleTimeString();
+     var date = d.getDate();
+     var month = d.getMonth();
+     var year = d.getFullYear();
+     document.getElementById("date").innerHTML="Login Date And Time : "+date+"/"+month+"/"+year+"   "+time;
+   }
+</script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="Blog.css">
+  <title>S.Abhishek</title>
+</head>
+<body>
+
+<div class="header">
+  <h1  style="color: white;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="w3-animate-fading">!.. My Blog ..!</h1>
+  <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+</div>
+
+<div class="topnav">
+  <a href="Home.html" class="top1">Home</a>
+  <a href="Blog.html" class="top1active">Blog</a>
+  <a href="Education.html" class="top1">Education</a>
+  <a href="Media.html" class="top1">Media</a>
+  <a href="Gallery.html" class="top1">Gallery</a>
+</div>
+
+<div class="time"></div>
+<marquee behavior="alternate" direction="right" ><a><p id="date"></p></a></marquee>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="color:  rgb(166, 255, 12);  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Interests : </h2>
+      <ul style="list-style-type:disc;">
+        <li>Music</li><br>
+        <li>Running</li><br>
+        <li>Travelling</li><br>
+        <li>Buzzing Tech</li><br>
+        <li>Programming</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2 style="color:  rgb(166, 255, 12);  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Hobbies : </h2>
+      <ul style="list-style-type:disc;">
+        <li>Reading</li><br>
+        <li>Long Bike Ride</li><br>
+        <li>Helping Needy</li><br>
+        <li>Gaining Innovative Ideas</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2 style="color:  rgb(166, 255, 12);  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Awards : </h2>
+      <ul style="list-style-type:disc;">
+        <li>First Rank in the Brain Nurture Foundation - Mental Arithmetic Program.</li><br>
+        <li style=" line-height: 1.7;">Awarded First Prize in State Level Yoga Competition conducted by Swamy Vivekanadha Yoga & Skating Association under the Indian Ministry Of Youth Affairs & Sports.</li><br>
+        <li style=" line-height: 1.7;">Won the Best Grade in the Age Group of 9 Years For Male Conducted By Nehru Yuva Kendra ( Ministry Of Youth Affairs & Sports - Govt of India ).</li><br>
+        <li style=" line-height: 1.7;">Second Rank in Kanyakumari District in the State Level Universal Talent Search Examination conducted by Shakespeare Institute Of English Studies.</li><br>
+        <li style=" line-height: 1.7;">Awarded Second Prize in State Level Yoga Competition conducted by International Naturopathy Organisation which is Organised By Swamy Vivekanadha Yoga & Skating Association </li><br>
+        <li style=" line-height: 1.7;">Second Prize in 100 meter Running Event For the Academic Year 2015-2016 conducted by Cambridge Sports Academy.</li><br>
+        <li>Awarded Best Volunteer of the Year Award by the District Collector.</li><br>
+        <li>Certificate Of Social Service from Swiss Emmaus Leprosy Relief Work India.</li>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 style="color:  rgb(166, 255, 12);  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Skills : </h2>
+      <ul style="list-style-type:disc;">
+        <li>C</li><br>
+        <li>C++ (Elementary)</li><br>
+        <li>Python (Elementary)</li><br>
+        <li>Html</li><br>
+        <li>CSS (Elementary)</li><br>
+        <li>JavaScript (Elementary)</li><br>
+        <li>Running</li><br>
+        <li>Team Work</li><br>
+        <li>Yoga</li><br>
+        <li>AUTO-CAD</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2 style="color:  rgb(166, 255, 12);  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Experience : </h2>
+      <ul style="list-style-type:disc;">
+        <li>Student Volunteer - 7 Years</li><br>
+        <li>School Pupil Leader of Sports Committee - 2 Years</li><br>
+        <li>Student Coordinator of CleanUp Drive</li><br>
+        <li>Amrita Varsham 2020 Volunteering</li><br>
+        <li>Class Representative</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2 style="color:  rgb(166, 255, 12); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Participation : </h2>
+      <ul style="list-style-type:disc;">
+        <li style=" line-height: 1.7;">Five Times Participated in Mini Marathon Organized By the District Sports Academy (12 To 15 Kms).</li><br>
+        <li>Hactober Fest Conducted by Digital Ocean and AmFoss.</li><br>
+        <li>Local Hack Day Hosted By MLH and AmFoss.</li><br>
+        <li style=" line-height: 1.7;">Workshop On Drone Surveillance as a Part Of Ragam 20 conducted by National Institute Of Technology - Calicut.</li><br>
+        <li style=" line-height: 1.7;">Workshop On Web Developement Using Django - Python Web Framework  conducted by Amrita - CS - STAR. </li><br>
+        <li>Logo Preparation Event Conducted by Cambridge International School.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container" style="margin-top:30px;">
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%" >Blog
+    </div>
+  </div>
+</div>
+<div class="container">    
+  <ul class="pager">
+    <li class="previous" ><a href="Home.html">Previous</a></li>
+    <li class="next" ><a href="Education.html">Next</a></li>
+  </ul>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Abhishek.S</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Home.html">Home</a></li>
+      <li class="active"><a href="Blog.html">Blog</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="Media.html">Media</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+    </ul>
+  </div>
+</nav>
+<script>
+  window.onload=function(){
+var d=new Date();
+var time = d.toLocaleTimeString();
+var date = d.getDate();
+var month = d.getMonth();
+var year = d.getFullYear();
+document.getElementById("date").innerHTML="Login Date And Time : "+date+"/"+month+"/"+year+"   "+time;
+}
+
+function fun(){
+var n=document.getElementById("name").value;
+if(n=="")
+{
+  window.alert("Enter the Name And Comments!");
+}
+}
+
+function showTime(){
+var date = new Date();
+var h = date.getHours(); // 0 - 23
+var m = date.getMinutes(); // 0 - 59
+var s = date.getSeconds(); // 0 - 59
+var session = "AM";
+
+if(h == 0){
+h = 12;
+}
+
+if(h > 12){
+h = h - 12;
+session = "PM";
+}
+
+h = (h < 10) ? "0" + h : h;
+m = (m < 10) ? "0" + m : m;
+s = (s < 10) ? "0" + s : s;
+
+var time = h + ":" + m + ":" + s + " " + session;
+document.getElementById("MyClockDisplay").innerText = time;
+document.getElementById("MyClockDisplay").textContent = time;
+
+setTimeout(showTime, 1000);
+
+}
+
+showTime();
+</script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="Home.css">
+  <title>S.Abhishek</title>
+</head>
+<body>
+
+
+<div class="header">
+  <h1  style="color: white;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="w3-animate-fading">!.. About me ..!</h1>
+  <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+</div>
+
+<div class="topnav">
+  <a href="Home.html" class ="top1active" style="color: rgb(166, 255, 12);">Home</a>
+  <a href="Blog.html" class ="top1" style="color: rgb(166, 255, 0);">Blog</a>
+  <a href="Education.html" class ="top1" style="color: rgb(166, 255, 12);">Education</a>
+  <a href="Media.html" class ="top1" style="color: rgb(166, 255, 12);">Media</a>
+  <a href="Gallery.html" class ="top1" style="color: rgb(166, 255, 12);">Gallery</a>
+</div>
+
+<div class="time"></div>
+<marquee behavior="alternate" direction="right" ><a><p id="date"></p></a></marquee>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1 style="color:  rgb(166, 255, 12);   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="w3-animate-fading">About : </h1>
+      <div class="mb-50 wow fadeIn">
+        <p id="demo"></p>
+          <script type="text/javascript">
+          var i = 0;
+          var txt = "Hello There! I'm S.Abhishek. I’m currently pursuing my Bachelor Of Technology in Computer Science Engineering from Amrita Vishwa Vidyapeetham, Amritapuri.";
+          var speed = 50;
+          function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+              }
+            }
+            typeWriter();
+        </script>
+      </div>
+       <p style="text-indent: 50px;">--> I was born and raised in the heart of Tamilnadu and grew up as a very outgoing and active child.</p> 
+        <p style="text-indent: 50px;">--> I aspire to receive a Bachelor's Degree in Computer Science from Amrita Vishwa Vidyapeetham ( Amritapuri Campus ).</p> 
+        <p style="text-indent: 50px;">--> I was involved in campus activities and organized many team works during my Intermediate. </p>
+        <p style="text-indent: 50px;">--> I can drive new and innovative ideas, taking an iterative approach to continually learning and optimizing. </p>
+        <p style="text-indent: 50px;">--> I wish to explore the world to solve technical problems and unite the ideas of math with the efficiency of computers to solve problems in our complex world.</p>
+        <P style="text-indent: 50px;">--> My desire is to reach towards a higher standard and prove to myself that I have the talents and skills to realize my dreams, while also setting a positive example for those that come behind me.</P> 
+        <p style="text-indent: 50px;">--> I keep myself updated with technical kinds of stuff to learn new things.</p>
+    </div>
+    <div class="card2">
+      <img src="14.jpg" alt="My Photo" align="Right" height="400" width="400" class="img-circle">
+      <h2 style="color: rgb(166, 255, 12);   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="w3-animate-fading">Bio : </h2><br>
+      <ul style="list-style-type:disc;">
+      <li><b>Name :</b> S.Abhishek</li><br>
+      <li><b>D.O.B : </b>04.02.2002</li><br>
+      <li><b>Age : </b>18</li><br>
+      <li><b>Mobile : </b>+91 8870262441</li><br>
+      <li><b>Email : </b>abhishekabi2002@gmail.com</li><br>
+      <li><b>Languages Known :</b><ul style="list-style-type:disc;"><br><li>Tamil ( Native Proficiency )</li><br><li>English ( Professional Working Proficiency ) </li><br><li>Malayalam ( Limited Working Proficiency )</li></ul> <br>
+      <li><b>Fathers Name :</b> H.Sujith</li><br>
+      <li><b>Father's Occupation :</b> Block Technology Manager - Central Govt</li><br>
+      <li><b>Mothers Name :</b> V.Rashmi</li><br>
+      <li><b>Mother's Occupation : </b>Home Maker</li><br>
+      <li><b>Brother(s) : </b>1</li><br>
+      <li><b>Weight : </b>65 Kgs</li><br>
+      <li><b>Height : </b>5.64 Feet</li><br>
+      <li><b>Blood Group : </b>B+ </li><br>
+      <li><b>City :</b>Nagercoil</li><br>
+      <li><b>State :</b>TamilNadu</li><br>
+      <li><b>Nationality : </b>Indian</li>
+    </ul>
+    </div>
+  </div>
+  <div class="rightcolumn" >
+    <div class="card1" >
+      <h2 style="color:  rgb(166, 255, 12);   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="w3-animate-fading">Education : </h2><br>
+      <p><b>Pre-Kinder-Garten : </b></p> 
+        <ul style="list-style-type:circle;">
+        <li>Gandhi School</li></ul>
+        <p><b>Kinder-Garten : </b></p> 
+        <ul style="list-style-type:circle;">
+        <li>SFS Matriculation School</li></ul>
+        <p><b>Grade I : </b></p> 
+        <ul style="list-style-type:circle;">
+        <li>Evans Matriculation School</li></ul>
+        <p><b>Grade II - X : </b></p> 
+        <ul style="list-style-type:circle;">
+        <li>Cambridge International School</li></ul>
+        <p><b>Intermediate : </b></p> 
+        <ul style="list-style-type:circle;">
+        <li>Cambridge International School</li></ul>
+      <p><b>Under Graduate : </b></p>
+        <ul style="list-style-type:circle;">
+        <li>Amrita Vishwa Vidyapeetham</li></ul>
+    </div>
+    <br>
+    <div class="card1">
+      <h2 style="color:  rgb(166, 255, 12);   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="w3-animate-fading">Social Media : </h2><br>
+      <ul style="list-style-type:disc;">
+        <li>Instagram</li><br>
+        <li>Twitter</li><br>
+        <li>Telegram</li><br>
+        <li>Facebook</li><br>
+        <li>WhatsApp</li><br>
+        <li>Snapchat</li><br>
+        <li>GitHub</li><br>
+        <li>Google +</li><br>
+        <li>Pin Interest</li><br>
+    </ul>
+    </div>
+    <br>
+    <div class="card1">
+      <h2 style="color:  rgb(166, 255, 12);   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="w3-animate-fading">Contact : </h2><br>
+      <p class="w3-animate-fading">Click Email to Contact.</p>
+      <p><b>Email &nbsp;</b><a href="mailto: abhishekabi2002@gmail.com">abhishekabi2002@gmail.com</a></p>
+      <p><b>Mobile :</b> +91 8870262441</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer" style="background-repeat :repeat;" >
+<marquee behaviour="alternate" direction="right" >
+    <h1 style="left:50%;  transform: translate(-50%, -50%); margin-left: 41%;   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="w3-animate-fading">!..Click To Connect..!</h1>
+    <a href="https://www.facebook.com/abhishekabhi2002" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/a_b_h_i_a_b_h_i" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/abhishek-s-52299a181?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BE8pEEzqxQ8W54TrLmDYS3g%3D%3D" class="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/channel/UCcdNVHlnPznRSv6Bu_fdwmw?view_as=subscriber" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/a.b.h.i.a.b.h.i/" class="fa fa-instagram"></a>
+    <a href="https://www.pinterest.ca/abhishekabi2002/" class="fa fa-pinterest"></a>
+    <a href="https://accounts.snapchat.com/" class="fa fa-snapchat-ghost"></a>
+  </marquee>
+</div>
+<div class="container" style="margin-top:30px;">
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:20%" >Home
+    </div>
+  </div>
+</div>
+<div class="container">    
+  <ul class="pager">
+    <li class="next" ><a href="Blog.html">Next</a></li>
+  </ul>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Abhishek.S</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="Home.html">Home</a></li>
+      <li><a href="Blog.html">Blog</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="Media.html">Media</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="end">
+  <form>
+   <input type="text" style="text-align: center" id="name" placeholder="++++ Name ++++"  required><br><br>
+  <textarea rows="4" cols="50" style="text-align: center" id="comment" placeholder="++++ Comments ++++" required></textarea><br><br>
+  <input type="submit" style="background-color: black; text-align: center;color: white;"  onblur="fun()"  required ></form><br>
+</div>
+<script>
+  window.onload=function(){
+   var d=new Date();
+   var time = d.toLocaleTimeString();
+   var date = d.getDate();
+   var month = d.getMonth();
+   var year = d.getFullYear();
+   document.getElementById("date").innerHTML="Login Date And Time : "+date+"/"+month+"/"+year+"   "+time;
+ }
+
+ function fun(){
+      var n=document.getElementById("name").value;
+      if(n=="")
+      {
+        window.alert("Enter the Name And Comments!");
+      }
+ }
+
+ function showTime(){
+  var date = new Date();
+  var h = date.getHours(); // 0 - 23
+  var m = date.getMinutes(); // 0 - 59
+  var s = date.getSeconds(); // 0 - 59
+  var session = "AM";
+  
+  if(h == 0){
+      h = 12;
+  }
+  
+  if(h > 12){
+      h = h - 12;
+      session = "PM";
+  }
+  
+  h = (h < 10) ? "0" + h : h;
+  m = (m < 10) ? "0" + m : m;
+  s = (s < 10) ? "0" + s : s;
+  
+  var time = h + ":" + m + ":" + s + " " + session;
+  document.getElementById("MyClockDisplay").innerText = time;
+  document.getElementById("MyClockDisplay").textContent = time;
+  
+  setTimeout(showTime, 1000);
+  
+}
+
+showTime();
+
+</script>
+</body>
+</html>

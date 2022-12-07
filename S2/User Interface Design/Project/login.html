@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>S.Abhishek</title>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script type="text/javascript">
+        function verifynull(){
+            if(!document.getElementById('Username' && 'Password').value.trim().length){
+                alert('Enter the Username And Password!')
+            }
+            else{
+                window.location.replace("Home.html");
+            }
+        }
+    </script>
+    <body>
+
+        <div id="background-wrap">
+            <div class="bubble x1"></div>
+            <div class="bubble x2"></div>
+            <div class="bubble x3"></div>
+            <div class="bubble x4"></div>
+            <div class="bubble x5"></div>
+            <div class="bubble x6"></div>
+            <div class="bubble x7"></div>
+            <div class="bubble x8"></div>
+            <div class="bubble x9"></div>
+            <div class="bubble x10"></div>
+        </div>
+
+        <div class="header">
+            <h1  class="w3-animate-fading" style=" font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">!..Login To View My Blog..!</h1>
+          </div>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+        <div class="login">
+            <img src="2.jpg" class="logo">
+            <h1  class="w3-animate-fading" style=" font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; font-size:25px;">
+                Enter Credential to Login
+            </h1>
+            <br>
+            <form name="log">
+                <p style=" font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  color: white; font-size: larger;" class="w3-animate-fading"   >Username</p>
+                <input type="text" name="Username" id="Username" placeholder="Enter the Email"   required>  
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; font-size: larger;" class="w3-animate-fading"  >Password</p>
+                <input type="password" name="pass" id="Password" placeholder="Enter Password" style=" font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  color: white;"  required>
+                <input type="button" onclick="verifynull()" value="Login"/>
+            </form>
+        </div>
+
+    <script>
+        window.onload=function(){
+   var d=new Date();
+   var time = d.toLocaleTimeString();
+   var date = d.getDate();
+   var month = d.getMonth();
+   var year = d.getFullYear();
+   document.getElementById("date").innerHTML="Login Date And Time : "+date+"/"+month+"/"+year+"   "+time;
+ }
+
+ function fun(){
+      var n=document.getElementById("name").value;
+      if(n=="")
+      {
+        window.alert("Enter the Name And Comments!");
+      }
+ }
+
+ function showTime(){
+  var date = new Date();
+  var h = date.getHours(); // 0 - 23
+  var m = date.getMinutes(); // 0 - 59
+  var s = date.getSeconds(); // 0 - 59
+  var session = "AM";
+  
+  if(h == 0){
+      h = 12;
+  }
+  
+  if(h > 12){
+      h = h - 12;
+      session = "PM";
+  }
+  
+  h = (h < 10) ? "0" + h : h;
+  m = (m < 10) ? "0" + m : m;
+  s = (s < 10) ? "0" + s : s;
+  
+  var time = h + ":" + m + ":" + s + " " + session;
+  document.getElementById("MyClockDisplay").innerText = time;
+  document.getElementById("MyClockDisplay").textContent = time;
+  
+  setTimeout(showTime, 1000);
+  
+}
+
+showTime();
+    </script>
+    </body>
+</html>
