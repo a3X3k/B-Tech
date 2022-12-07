@@ -1,0 +1,78 @@
+import java.io.*;
+
+class Main 
+{ 
+    public static void main(String args[]) throws IOException 
+    { 
+        Yylex lex = new Yylex(new BufferedReader(new FileReader(new File("1.txt"))));
+        Token token = lex.yylex(); 
+
+        while(token.text != null ) 
+        { 
+            token = lex.yylex();  
+        } 
+    } 
+}
+
+class Token
+{ 
+    String text;
+
+    Token(String t) 
+    { 
+        text = t; 
+    } 
+} 
+
+%% 
+
+S = "\"".*"\""
+D = [0-9] 
+LT = [a-zA-Z] 
+A = "+"|"-"|"*"|"/"|"++"|"--"
+L = "&&"|"\|\|"|"!"|"\^"
+R = ">"|"<"|"<="|">="|"=="|"!="
+
+%type Token
+
+%eofval{ 
+    return new Token(null); 
+%eofval}
+
+%%
+
+"{" {System.out.print("<LPAREN>");}
+"}" {System.out.print("<RPAREN>");}
+"(" {System.out.print("<LBRAC>");}
+")" {System.out.print("<RBRAC>");}
+";" {System.out.print("<SEMI>");}
+"," {System.out.print("<COMMA>");}
+"=" {System.out.print("<ASSIGN>");}
+"/*".*"*/" {System.out.print("<MULTI_COMMENT>");}
+"//".* {System.out.print("<SINGLE_COMMENT>");}
+
+"main" {System.out.print("<MAIN>");}
+"if" {System.out.print("<IF>");}
+"for" {System.out.print("<FOR>");}
+"while" {System.out.print("<WHILE>");}
+"switch" {System.out.print("<SWITCH>");}
+"case" {System.out.print("<CASE>");}
+"break" {System.out.print("<BREAK>");}
+"printf" {System.out.print("<PRINTF>");}
+"scanf" {System.out.print("<SCANF>");}
+"return" {System.out.print("<RETURN>");}
+"int" {System.out.print("<INT>");}
+"float" {System.out.print("<FLOAT>");}
+"char" {System.out.print("<CHAR>");}
+
+{A} {System.out.print("<ARITHMETIC,"+yytext()+">");}
+{L} {System.out.print("<LOGICAL,"+yytext()+">");}
+{R} {System.out.print("<RELATIONAL,"+yytext()+">");}
+{S} {System.out.println("<STRING CONSTANT>");}
+
+{LT}({LT}|{D})* {System.out.print("<ID,"+yytext()+">");}
+{D}+ {System.out.print("<INT CONSTANT,"+ yytext()+">");}
+{D}+(.){D}+ {System.out.print("<FLOAT_CONST,"+yytext()+">");}
+[ \t\n]+ {System.out.print(yytext());} 
+. {System.out.print("<ERROR>");}
+
