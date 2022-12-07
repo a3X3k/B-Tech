@@ -1,0 +1,32 @@
+int main() 
+
+{
+
+    int n = 0, _abhi = -1;
+
+    float a3x3k = 10.0;
+
+    //True if number is less than 0
+
+    if (n < 0)
+
+    {
+
+        _abhi = 1;
+
+    }
+
+    /*False if the number is greater than 0*/
+
+    else
+
+    {
+
+        _abhi = 0;
+
+    }
+
+    return 0;
+
+}
+

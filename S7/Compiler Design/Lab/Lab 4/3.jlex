@@ -1,0 +1,66 @@
+import java.io.*;
+
+class Main 
+{
+    public static void main(String args[]) throws IOException 
+    { 
+        Yylex lex = new Yylex(new BufferedReader(new FileReader(new File("3.txt")))); 
+
+        Token token = lex.yylex();
+ 
+        while(token.text != null ) 
+        { 
+            token = lex.yylex();  
+        } 
+    } 
+}
+
+class Token
+{ 
+    String text;
+
+    Token(String t)
+    { 
+        text = t; 
+    } 
+}
+
+%% 
+
+digit = [0-9] 
+letter = [a-zA-Z]
+whitespace = [ \t\n]
+
+%type Token
+ 
+%eofval{ 
+    return new Token(null); 
+%eofval} 
+
+%%
+
+"//"(.*) {System.out.print("<SINGLE_COMMENT"+">");}
+"/*"(.*)"*/" {System.out.print("<MULTI_COMMENT"+">");}
+
+"int" {System.out.print("<INT"+">");}
+"float" {System.out.print("<FLOAT"+">");}
+"if" {System.out.print("<IF"+">");}
+"else" {System.out.print("<ELSE"+">");}
+"for" {System.out.print("<FOR"+">");}
+"while" {System.out.print("<WHILE"+">");}
+"do" {System.out.print("<DO"+">");}
+"return" {System.out.print("<RETURN"+">");}
+
+([a-zA-Z]|_)({letter}|{digit})* {System.out.print("<ID," + yytext() + ">");}
+
+"{" {System.out.print("<OPEN_CURLYBRACKET,"+yytext()+">");}
+"}" {System.out.print("<CLOSE_P_CURLYBRACKET,"+yytext()+">");}
+"(" {System.out.print("<OPEN_PARENTHESIS,"+yytext()+">");}
+")" {System.out.print("<CLOSE_PARENTHESIS,"+yytext()+">");}
+"," {System.out.print("<COMMA,"+yytext()+">");}
+";" {System.out.print("<SEMICOLON,"+yytext()+">");}
+
+{digit}+ {System.out.print("<INT_CONST,"+yytext()+">");}
+{digit}+(.){digit}+ {System.out.print("<FLOAT_CONST,"+yytext()+">");}
+{whitespace}+ {System.out.print(yytext());}
+. {System.out.print("<SYMBOL>");}

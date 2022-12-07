@@ -1,0 +1,47 @@
+import java.io.*;
+
+class Main
+{ 
+    public static void main(String args[]) throws IOException
+    { 
+        Yylex lex=new Yylex(new BufferedReader(new FileReader(new File("1.txt")))); 
+
+        Token token = lex.yylex(); 
+
+        while(token.text != null ) 
+        { 
+            System.out.println("\t" + token.text);
+
+            token= lex.yylex();  
+        } 
+    } 
+}
+
+class Token
+{ 
+    String text; 
+
+    Token(String t)
+    {
+        text = t;
+    } 
+} 
+
+%% 
+
+digit = [0-9] 
+letter = [a-zA-Z] 
+special = [!@#$%\^&*()_+]
+whitespace = [ \t\n] 
+
+%type Token 
+
+%eofval{ 
+    return new Token(null); 
+%eofval} 
+
+%%
+
+[Pp]{letter}{letter}{letter}[Tt] {System.out.println("Match: " + yytext());}
+{whitespace}+ {/*Skip white spaces*/}
+. {}
